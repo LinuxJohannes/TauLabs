@@ -64,12 +64,15 @@
          // Airspeed sensors
 #define PIOS_INCLUDE_MPXV5004
 #define PIOS_INCLUDE_MPXV7002
+
          // MPU6050 over I2C interface
 #define PIOS_INCLUDE_MPU6050
 #define PIOS_MPU6050_ACCEL
+
          // MPU6500 over SPI interface
 //#define PIOS_INCLUDE_MPU6500
 //#define PIOS_MPU6500_ACCEL
+
          // MS5611 over I2C interface
 #define PIOS_INCLUDE_MS5611
 #define FLASH_FREERTOS
