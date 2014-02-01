@@ -11,7 +11,7 @@ Description of work (D)
 Current maintainer function (M)
 
 ----------
-J: Johannes
+
 N: Connor Abbott
 E: connor (at) abbott (dot) cx
 D: Win32 OpenPilot port

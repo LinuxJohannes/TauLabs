@@ -10,12 +10,14 @@ HEADERS += \
     stmplugin.h \
     flyingf3.h \
     flyingf4.h \
+    core4.h \
     discoveryf4.h
 
 SOURCES += \
     stmplugin.cpp \
     flyingf3.cpp \
     flyingf4.cpp \
+    coref4.cpp \
     discoveryf4.cpp
 
 RESOURCES += \
