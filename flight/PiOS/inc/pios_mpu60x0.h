@@ -8,7 +8,7 @@
  *
  * @file       PIOS_MPU60X0.h
  * @author     The OpenPilot Team, http://www.openpilot.org Copyright (C) 2012.
- * @author     Tau Labs, http://taulabs.org, Copyright (C) 2012-2013
+ * @author     Tau Labs, http://taulabs.org, Copyright (C) 2012-2014
  * @brief      MPU60X0 3-axis gyor function headers
  * @see        The GNU Public License (GPL) Version 3
  *
@@ -137,11 +137,11 @@ struct pios_mpu60x0_data {
 	int16_t gyro_x;
 	int16_t gyro_y;
 	int16_t gyro_z;
-#if defined(PIOS_MPU6000_ACCEL) || defined(PIOS_MPU6050_ACCEL)
+#if defined(PIOS_MPU6000_ACCEL) || defined(PIOS_MPU6050_ACCEL) || defined(PIOS_MPU6500_ACCEL)
 	int16_t accel_x;
 	int16_t accel_y;
 	int16_t accel_z;
-#endif /* PIOS_MPU6000_ACCEL || PIOS_MPU6050_ACCEL */
+#endif /* PIOS_MPU6000_ACCEL || PIOS_MPU6050_ACCEL || PIOS_MPU6500_ACCEL*/
 	int16_t temperature;
 };
 

@@ -2,7 +2,7 @@
  ******************************************************************************
  *
  * @file       stmplugin.cpp
- * @author     Tau Labs, http://taulabs.org, Copyright (C) 2013
+ * @author     Tau Labs, http://taulabs.org, Copyright (C) 2014
  *
  * @addtogroup GCSPlugins GCS Plugins
  * @{
@@ -30,6 +30,7 @@
 #include "flyingf3.h"
 #include "flyingf4.h"
 #include "discoveryf4.h"
+#include "coref4.h"
 #include <QtPlugin>
 
 
@@ -64,6 +65,10 @@ void StmPlugin::extensionsInitialized()
 
     DiscoveryF4* discoveryf4 = new DiscoveryF4();
     addAutoReleasedObject(discoveryf4);
+
+    CoreF4* coref4 = new CoreF4();
+    addAutoReleasedObject(discoveryf4);
+
 }
 
 void StmPlugin::shutdown()

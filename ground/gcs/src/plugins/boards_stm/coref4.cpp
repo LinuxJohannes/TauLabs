@@ -34,8 +34,8 @@
 
 #include "hwcoref4.h"
 /**
- * @brief Quanton::Quanton
- *  This is the Quanton board definition
+ * @brief CoreF4::CoreF4
+ *  This is the CoreF4 board definition
  */
 CoreF4::CoreF4(void)
 {
