@@ -2,7 +2,7 @@
  ******************************************************************************
  * @file       pios_usb_defs.h
  * @author     The OpenPilot Team, http://www.openpilot.org Copyright (C) 2010.
- * @author     Tau Labs, http://taulabs.org, Copyright (C) 2013
+ * @author     Tau Labs, http://taulabs.org, Copyright (C) 2013-2014
  * @addtogroup PIOS PIOS Core hardware abstraction layer
  * @{
  * @addtogroup PIOS_USB_DEFS USB standard types and definitions
@@ -371,6 +371,7 @@ enum usb_product_ids {
 	USB_PRODUCT_ID_DISCOVERYF4    = USB_PRODUCT_ID_SPARE,
 	USB_PRODUCT_ID_FLYINGF3       = USB_PRODUCT_ID_SPARE,
 	USB_PRODUCT_ID_FLYINGF4       = USB_PRODUCT_ID_SPARE,
+	USB_PRODUCT_ID_COREF4         = USB_PRODUCT_ID_SPARE,
 } __attribute__((packed));
 
 enum usb_op_board_ids {
